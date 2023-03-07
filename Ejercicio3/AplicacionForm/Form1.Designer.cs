@@ -28,10 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.openFolder = new System.Windows.Forms.FolderBrowserDialog();
             this.btnFolder = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cboxTime = new System.Windows.Forms.ComboBox();
+            this.tmr = new System.Windows.Forms.Timer(this.components);
             this.reproductor1 = new ReproductorEj3.Reproductor();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -63,18 +65,23 @@
             this.cboxTime.TabIndex = 3;
             this.cboxTime.SelectedIndexChanged += new System.EventHandler(this.cboxTime_SelectedIndexChanged);
             // 
+            // tmr
+            // 
+            this.tmr.Interval = 1000;
+            this.tmr.Tick += new System.EventHandler(this.tmr_Tick);
+            // 
             // reproductor1
             // 
             this.reproductor1.AutoSize = true;
             this.reproductor1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.reproductor1.Location = new System.Drawing.Point(167, 243);
-            this.reproductor1.Minutos = 0;
+            this.reproductor1.Location = new System.Drawing.Point(175, 246);
+            this.reproductor1.MM = 0;
             this.reproductor1.Name = "reproductor1";
-            this.reproductor1.Segundos = 0;
             this.reproductor1.Size = new System.Drawing.Size(84, 57);
-            this.reproductor1.TabIndex = 0;
-            this.reproductor1.CambioSeg += new System.EventHandler(this.reproductor1_CambioSeg);
-            this.reproductor1.Load += new System.EventHandler(this.reproductor1_Load);
+            this.reproductor1.SS = 0;
+            this.reproductor1.TabIndex = 4;
+            this.reproductor1.PlayClick += new System.EventHandler(this.reproductor1_PlayClick);
+            this.reproductor1.DesbordarTiempo += new System.EventHandler(this.reproductor1_DesbordarTiempo);
             // 
             // Form1
             // 
@@ -82,10 +89,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(436, 315);
+            this.Controls.Add(this.reproductor1);
             this.Controls.Add(this.cboxTime);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnFolder);
-            this.Controls.Add(this.reproductor1);
             this.KeyPreview = true;
             this.Name = "Form1";
             this.Text = "Form1";
@@ -96,12 +103,12 @@
         }
 
         #endregion
-
-        private ReproductorEj3.Reproductor reproductor1;
         private System.Windows.Forms.FolderBrowserDialog openFolder;
         private System.Windows.Forms.Button btnFolder;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ComboBox cboxTime;
+        private System.Windows.Forms.Timer tmr;
+        private ReproductorEj3.Reproductor reproductor1;
     }
 }
 

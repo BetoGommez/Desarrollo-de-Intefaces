@@ -20,124 +20,116 @@ namespace ReproductorEj3
         {
             InitializeComponent();
 
-            timer = new Timer();
-            timer.Interval = 1000;
-            timer.Tick += timeSet;
-           
 
         }
 
-        private int minutos = 0;
+        private void updateTime()
+        {
+            this.lblTime.Text = $"{mm,2:d2}:{ss,2:d2}";
+        }
+
+        private int mm = 0;
         [Category("Appearance")]
-        [Description("Minutos")]
-        public int Minutos
+        [Description("mm")]
+        public int MM
         {
             set
             {
-                minutos = value;
+                mm =value;
+                if (mm < 0)
+                {
+                    throw new ArgumentException("No existe el tiempo negativo");
+
+                }
+                if (mm > 59)
+                {
+                    mm = 0;
+                }
+                updateTime();
+            }
+            get
+            {
+                return mm;
+            }
+        }
+
+
+
+
+        private int ss = 0;
+        [Category("Appearance")]
+        [Description("ss")]
+        public int SS
+        {
+            set
+            {
+                ss = value;
+
+                if (ss < 0)
+                {
+                    throw new ArgumentException("No existe el tiempo negativo");
+                }
+                
+
+                if (ss > 59)
+                {
+                    ss = ss%60;
+                    OnDesbordarTiempo(EventArgs.Empty);
+                }
+                updateTime();
+                
                 
             }
             get
             {
-                return minutos;
+                return ss;
             }
         }
 
-        [Category("Hizo tick")]
-        [Description("Cada vez que el timer se activa")]
-        public event System.EventHandler CambioSeg;
-        protected virtual void OnCambioSeg(EventArgs e)
+
+        public event System.EventHandler PlayClick;
+
+        protected virtual void OnPlayClick(EventArgs e)
         {
-            e.ToString();
-        }
-
-
-
-        private int segundos = 0;
-        [Category("Appearance")]
-        [Description("Segundos")]
-        public int Segundos
-        {
-            set
+            if (PlayClick != null)
             {
-                segundos = value;
-                
-            }
-            get
-            {
-                return segundos;
-            }
-        }
-
-        public void stopTimer()
-        {
-            if (playing)
-            {
-                playClick();
-
-            }
-        }
-
-        public void startTimer()
-        {
-            if (!playing)
-            {
-                playClick();
-
+                PlayClick(this, e);
             }
         }
 
 
-        private void playClick()
-        {
-            if (playing)
-            {
-                timer.Stop();
-            }
-            else
-            {
-                timer.Start();
-            }
-            playing = !playing;
-        }
 
 
 
         private void btnPlayPause_Click(object sender, EventArgs e)
         {
             
-            playClick();
+            OnPlayClick(EventArgs.Empty);
             if (playing)
             {
-                btnPlayPause.Image = Resources.btnPause;
-
+                btnPlayPause.Image = Resources.btnplay;
+                playing= false;
             }
             else
             {
-                btnPlayPause.Image = Resources.btnplay;
-
+                btnPlayPause.Image = Resources.btnPause;
+                playing= true;
             }
+
         }
 
-        private void timeSet(object sender, EventArgs e)
-        {
-            segundos++;
-            CambioSeg(sender,e);
-            if (segundos > 59)
-            {
-                desbordarTiempo();
-            }
-            this.lblTime.Text = String.Format("{0:D2}", minutos) + ":" + String.Format("{0:D2}",segundos);
-        }
 
-        private void desbordarTiempo()
+        public event System.EventHandler DesbordarTiempo;
+        protected virtual void OnDesbordarTiempo(EventArgs e)
         {
-            if (minutos < 0 || segundos < 0)
+            int ssAux = 0;
+            if (DesbordarTiempo != null)
             {
-                throw new ArgumentException("No existe el tiempo negativo");
+                DesbordarTiempo.Invoke(this, e);
             }
-            minutos++;
-            segundos = 0;
+
+
+            
         }
     }
 }

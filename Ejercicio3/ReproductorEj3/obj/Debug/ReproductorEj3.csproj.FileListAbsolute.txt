@@ -1,0 +1,9 @@
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\ReproductorEj3\bin\Debug\ReproductorEj3.dll
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\ReproductorEj3\bin\Debug\ReproductorEj3.pdb
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\ReproductorEj3\obj\Debug\ReproductorEj3.csproj.AssemblyReference.cache
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\ReproductorEj3\obj\Debug\ReproductorEj3.Properties.Resources.resources
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\ReproductorEj3\obj\Debug\ReproductorEj3.Reproductor.resources
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\ReproductorEj3\obj\Debug\ReproductorEj3.csproj.GenerateResource.cache
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\ReproductorEj3\obj\Debug\ReproductorEj3.csproj.CoreCompileInputs.cache
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\ReproductorEj3\obj\Debug\ReproductorEj3.dll
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\ReproductorEj3\obj\Debug\ReproductorEj3.pdb

@@ -1,0 +1,14 @@
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\AplicacionForm\bin\Debug\AplicacionForm.exe.config
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\AplicacionForm\bin\Debug\AplicacionForm.exe
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\AplicacionForm\bin\Debug\AplicacionForm.pdb
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\AplicacionForm\bin\Debug\ReproductorEj3.dll
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\AplicacionForm\bin\Debug\ReproductorEj3.pdb
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\AplicacionForm\obj\Debug\AplicacionForm.csproj.AssemblyReference.cache
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\AplicacionForm\obj\Debug\AplicacionForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\AplicacionForm\obj\Debug\AplicacionForm.Form1.resources
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\AplicacionForm\obj\Debug\AplicacionForm.Properties.Resources.resources
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\AplicacionForm\obj\Debug\AplicacionForm.csproj.GenerateResource.cache
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\AplicacionForm\obj\Debug\AplicacionForm.csproj.CoreCompileInputs.cache
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\AplicacionForm\obj\Debug\AplicacionForm.csproj.CopyComplete
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\AplicacionForm\obj\Debug\AplicacionForm.exe
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio3\AplicacionForm\obj\Debug\AplicacionForm.pdb
