@@ -36,7 +36,6 @@ namespace etiquetaAviso
         {
             set
             {
-              
                 imagenMarca = value;
                 this.Refresh();
             }
@@ -139,15 +138,7 @@ namespace etiquetaAviso
                     offsetY = grosor / 2;
 
                     break;
-                case eMarca.Imagen:
-                    if (imagen!=null)
-                    {
-                        g.DrawImage(imagen, 0, 0, h, h);
-                    }
-                    else
-                    {
-                        this.Marca = eMarca.Nada;
-                    }
+                default:
                     break;
             }
 
@@ -187,12 +178,25 @@ namespace etiquetaAviso
                     pen.Dispose();
                     break;
                 case eMarca.Imagen:
-                    if (imagen!=null)
+                    bool validImage = true;
+                    if (imagen != null)
                     {
-                        g.DrawImage(imagen,0,0,h,h);
-                        offsetX = h;
+                        try
+                        {
+                            g.DrawImage(imagen, 0, 0, h, h);
+                            offsetX = h;
+                        }
+                        catch (Exception a)
+                        {
+                            validImage = false;
+                        }
                     }
                     else
+                    {
+                        validImage = false;
+                    }
+
+                    if (!validImage)
                     {
                         this.Marca = eMarca.Nada;
                     }
