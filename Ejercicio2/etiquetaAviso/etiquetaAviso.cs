@@ -29,10 +29,10 @@ namespace etiquetaAviso
             InitializeComponent();
         }
 
-        private String imagenMarca = "C:\\Users\\Trabajo\\Desktop\\imagen.jpeg";
+        private Image imagenMarca;
         [Category("Appearance")]
         [Description("Indica si tiene un fondo con gradiente")]
-        public String ImagenMarca
+        public Image ImagenMarca
         {
             set
             {
