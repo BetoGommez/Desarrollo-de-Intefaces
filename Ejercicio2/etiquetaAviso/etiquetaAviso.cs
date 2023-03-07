@@ -140,7 +140,7 @@ namespace etiquetaAviso
 
                     break;
                 case eMarca.Imagen:
-                    if (checkImagen(ImagenMarca))
+                    if (imagen!=null)
                     {
                         g.DrawImage(imagen, 0, 0, h, h);
                     }
@@ -187,7 +187,7 @@ namespace etiquetaAviso
                     pen.Dispose();
                     break;
                 case eMarca.Imagen:
-                    if (checkImagen(ImagenMarca))
+                    if (imagen!=null)
                     {
                         g.DrawImage(imagen,0,0,h,h);
                         offsetX = h;
@@ -208,21 +208,7 @@ namespace etiquetaAviso
 
         }
 
-        private bool checkImagen(String imagen)
-        {
-            try
-            {
-                this.imagen = Image.FromFile(imagen);
-                if (!(this.imagen.Height > 0))
-                {
-                    throw new Exception();
-                }
-            } catch (Exception e)
-            {
-                return false;
-            }
-            return true;
-        }
+
         protected override void OnTextChanged(EventArgs e)
         {
             base.OnTextChanged(e);
