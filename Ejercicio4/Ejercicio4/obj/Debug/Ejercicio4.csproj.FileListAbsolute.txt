@@ -1,0 +1,16 @@
+C:\Users\Trabajo\Desktop\Drive\2do\c\C#\Ejercicios\2do trimestre\Prueba1\Ejercicio4\Ejercicio4\bin\Debug\Ejercicio4.dll
+C:\Users\Trabajo\Desktop\Drive\2do\c\C#\Ejercicios\2do trimestre\Prueba1\Ejercicio4\Ejercicio4\bin\Debug\Ejercicio4.pdb
+C:\Users\Trabajo\Desktop\Drive\2do\c\C#\Ejercicios\2do trimestre\Prueba1\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.csproj.AssemblyReference.cache
+C:\Users\Trabajo\Desktop\Drive\2do\c\C#\Ejercicios\2do trimestre\Prueba1\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.DibujoAhorcado.resources
+C:\Users\Trabajo\Desktop\Drive\2do\c\C#\Ejercicios\2do trimestre\Prueba1\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.csproj.GenerateResource.cache
+C:\Users\Trabajo\Desktop\Drive\2do\c\C#\Ejercicios\2do trimestre\Prueba1\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.csproj.CoreCompileInputs.cache
+C:\Users\Trabajo\Desktop\Drive\2do\c\C#\Ejercicios\2do trimestre\Prueba1\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.dll
+C:\Users\Trabajo\Desktop\Drive\2do\c\C#\Ejercicios\2do trimestre\Prueba1\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.pdb
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio4\Ejercicio4\bin\Debug\Ejercicio4.dll
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio4\Ejercicio4\bin\Debug\Ejercicio4.pdb
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.csproj.AssemblyReference.cache
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.DibujoAhorcado.resources
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.csproj.GenerateResource.cache
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.csproj.CoreCompileInputs.cache
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.dll
+C:\Users\Trabajo\Desktop\Drive\2do\c\CSharp\Ejercicios\2do trimestre\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.pdb
